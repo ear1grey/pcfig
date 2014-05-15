@@ -15,10 +15,11 @@ article>section {
     padding: 2em;
 
     >div{
-        width: 18em;
+        width: 20em;
         margin: 0 auto;
         overflow: hidden;
     }
+
 }
 
 a {
@@ -26,7 +27,8 @@ a {
     color: inherit;
 }
 
-p {
+h1 {
+    font-weight: normal;    
     text-align: right;    
 }
 
@@ -35,11 +37,11 @@ em {
     text-shadow: 0 0 0.1em rgba(127,127,127,0.5);
 }
 
-small {
+section p,
+section ul {
     font-size: 65%;
     text-align: right;
     padding-top: 1em;
-    display: block;
 }
 
 ul {
@@ -53,11 +55,12 @@ img {
     width: 4em;
     display: inline-block;
     float: left;
+    margin-right: 1ex;
 }
 
 .source {
-    padding-top: 4ex;
-    font-size: 75%;
+    padding-top: 2ex;
+    font-size: 50%;
     opacity: 0.6;
 }
 

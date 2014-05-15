@@ -4,6 +4,17 @@ module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
+        validation: {
+            options: {
+                stoponerror: false,
+            },
+            files: {
+                src: [
+                    '<%= pkg.folders.src %>/**/*.html'
+                ]
+            }
+        },
+
 		sass: {
 			dist: {
 				options: {
@@ -60,8 +71,10 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-copy');
+
+    grunt.loadNpmTasks('grunt-html-validation');
     grunt.loadNpmTasks('grunt-gh-pages');
 
-    grunt.registerTask('default', ['sass', 'copy']);
+    grunt.registerTask('default', ['validation','sass', 'copy']);
 
 };
