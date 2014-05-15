@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<svg baseProfile="tiny" 
+    height="24px" 
+    version="1.2"
+    viewBox="0 0 20 40"
+    width="24px"
+    xml:space="preserve"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <g style="stroke:#c00;stroke-width:2;fill: none;">
+        <circle cx="10" cy="9" r="4" style="fill:#c00;"/>
+        <circle cx="10" cy="20" r="4"/>
+        <circle cx="10" cy="31" r="4"/>
+        <rect 
+            height="38"
+            width="18"
+            y="1"
+            x="1"
+            rx="3"
+            ry="3"
+            />
+    </g>
+
+
+</svg>

@@ -97,7 +97,7 @@ img {
 
 /* line 86, src/style.scss */
 .crown {
-  background: #ff6600;
+  background: #FF6633;
   color: #ffe77c;
 }
 
@@ -126,29 +126,50 @@ img {
 }
 
 /* line 113, src/style.scss */
+.rlj {
+  color: #C00;
+}
+
+/* line 117, src/style.scss */
+.everybody {
+  background: #56336a;
+  color: #7FFFAA;
+}
+
+/* line 124, src/style.scss */
+.important {
+  font-weight: bold;
+}
+
+/* line 128, src/style.scss */
 .sources {
   background: #666666;
   color: #CC9;
 }
-/* line 117, src/style.scss */
+/* line 132, src/style.scss */
 .sources img {
   width: 2em;
 }
-/* line 121, src/style.scss */
+/* line 136, src/style.scss */
 .sources li {
   padding: 1ex;
   border-radius: 0.75ex;
   font-size: 50%;
 }
-/* line 126, src/style.scss */
+/* line 141, src/style.scss */
 .sources li a {
   font-size: 200%;
   display: block;
   font-weight: bold;
 }
-
-/* line 138, src/style.scss */
-:target {
+/* line 149, src/style.scss */
+.sources :target {
   background: #333;
   color: #DDA;
+}
+
+/* line 157, src/style.scss */
+section:target {
+  border-left: black solid 1em;
+  border-right: black solid 1em;
 }
