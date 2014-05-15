@@ -18,37 +18,38 @@ article > section {
 }
 /* line 17, src/style.scss */
 article > section > div {
-  width: 18em;
+  width: 20em;
   margin: 0 auto;
   overflow: hidden;
 }
 
-/* line 24, src/style.scss */
+/* line 25, src/style.scss */
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* line 29, src/style.scss */
-p {
+/* line 30, src/style.scss */
+h1 {
+  font-weight: normal;
   text-align: right;
 }
 
-/* line 33, src/style.scss */
+/* line 35, src/style.scss */
 em {
   font-style: normal;
   text-shadow: 0 0 0.1em rgba(127, 127, 127, 0.5);
 }
 
-/* line 38, src/style.scss */
-small {
+/* line 41, src/style.scss */
+section p,
+section ul {
   font-size: 65%;
   text-align: right;
   padding-top: 1em;
-  display: block;
 }
 
-/* line 45, src/style.scss */
+/* line 47, src/style.scss */
 ul {
   list-style: none;
   text-align: right;
@@ -56,66 +57,67 @@ ul {
   padding-bottom: 1ex;
 }
 
-/* line 52, src/style.scss */
+/* line 54, src/style.scss */
 img {
   width: 4em;
   display: inline-block;
   float: left;
+  margin-right: 1ex;
 }
 
-/* line 58, src/style.scss */
+/* line 61, src/style.scss */
 .source {
-  padding-top: 4ex;
-  font-size: 75%;
+  padding-top: 2ex;
+  font-size: 50%;
   opacity: 0.6;
 }
 
-/* line 64, src/style.scss */
+/* line 67, src/style.scss */
 .banner {
   width: 100%;
 }
 
-/* line 68, src/style.scss */
+/* line 71, src/style.scss */
 .flag {
   background: #0b2864;
   color: #ffe77c;
 }
 
-/* line 73, src/style.scss */
+/* line 76, src/style.scss */
 .pedestrian {
   background: #ffe77c;
   color: #0b2864;
 }
 
-/* line 78, src/style.scss */
+/* line 81, src/style.scss */
 .casualties {
   background: #89a02c;
   color: #FFF;
 }
 
-/* line 83, src/style.scss */
+/* line 86, src/style.scss */
 .crown {
   background: #ff6600;
   color: #ffe77c;
 }
 
-/* line 88, src/style.scss */
+/* line 91, src/style.scss */
 .mort {
   background: #CC0000;
   color: #FFF;
 }
 
-/* line 93, src/style.scss */
+/* line 96, src/style.scss */
 .action {
   background: #0b2864;
   color: #ffcc00;
 }
-/* line 97, src/style.scss */
+/* line 100, src/style.scss */
 .action small p {
   padding-top: 1ex;
 }
 
-/* line 103, src/style.scss */
+/* line 106, src/style.scss */
 .pcf {
   background: #e6e6e6;
   color: #FFF;
@@ -123,29 +125,29 @@ img {
   padding-bottom: 7em;
 }
 
-/* line 110, src/style.scss */
+/* line 113, src/style.scss */
 .sources {
   background: #666666;
   color: #CC9;
 }
-/* line 114, src/style.scss */
+/* line 117, src/style.scss */
 .sources img {
   width: 2em;
 }
-/* line 118, src/style.scss */
+/* line 121, src/style.scss */
 .sources li {
   padding: 1ex;
   border-radius: 0.75ex;
   font-size: 50%;
 }
-/* line 123, src/style.scss */
+/* line 126, src/style.scss */
 .sources li a {
   font-size: 200%;
   display: block;
   font-weight: bold;
 }
 
-/* line 135, src/style.scss */
+/* line 138, src/style.scss */
 :target {
   background: #333;
   color: #DDA;
