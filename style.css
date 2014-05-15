@@ -1,0 +1,152 @@
+/* line 1, src/style.scss */
+body {
+  font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 300%;
+}
+
+/* line 8, src/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 14, src/style.scss */
+article > section {
+  padding: 2em;
+}
+/* line 17, src/style.scss */
+article > section > div {
+  width: 18em;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* line 24, src/style.scss */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 29, src/style.scss */
+p {
+  text-align: right;
+}
+
+/* line 33, src/style.scss */
+em {
+  font-style: normal;
+  text-shadow: 0 0 0.1em rgba(127, 127, 127, 0.5);
+}
+
+/* line 38, src/style.scss */
+small {
+  font-size: 65%;
+  text-align: right;
+  padding-top: 1em;
+  display: block;
+}
+
+/* line 45, src/style.scss */
+ul {
+  list-style: none;
+  text-align: right;
+  padding-top: 1ex;
+  padding-bottom: 1ex;
+}
+
+/* line 52, src/style.scss */
+img {
+  width: 4em;
+  display: inline-block;
+  float: left;
+}
+
+/* line 58, src/style.scss */
+.source {
+  padding-top: 4ex;
+  font-size: 75%;
+  opacity: 0.6;
+}
+
+/* line 64, src/style.scss */
+.banner {
+  width: 100%;
+}
+
+/* line 68, src/style.scss */
+.flag {
+  background: #0b2864;
+  color: #ffe77c;
+}
+
+/* line 73, src/style.scss */
+.pedestrian {
+  background: #ffe77c;
+  color: #0b2864;
+}
+
+/* line 78, src/style.scss */
+.casualties {
+  background: #89a02c;
+  color: #FFF;
+}
+
+/* line 83, src/style.scss */
+.crown {
+  background: #ff6600;
+  color: #ffe77c;
+}
+
+/* line 88, src/style.scss */
+.mort {
+  background: #CC0000;
+  color: #FFF;
+}
+
+/* line 93, src/style.scss */
+.action {
+  background: #0b2864;
+  color: #ffcc00;
+}
+/* line 97, src/style.scss */
+.action small p {
+  padding-top: 1ex;
+}
+
+/* line 103, src/style.scss */
+.pcf {
+  background: #e6e6e6;
+  color: #FFF;
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+
+/* line 110, src/style.scss */
+.sources {
+  background: #666666;
+  color: #CC9;
+}
+/* line 114, src/style.scss */
+.sources img {
+  width: 2em;
+}
+/* line 118, src/style.scss */
+.sources li {
+  padding: 1ex;
+  border-radius: 0.75ex;
+  font-size: 50%;
+}
+/* line 123, src/style.scss */
+.sources li a {
+  font-size: 200%;
+  display: block;
+  font-weight: bold;
+}
+
+/* line 135, src/style.scss */
+:target {
+  background: #333;
+  color: #DDA;
+}
