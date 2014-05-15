@@ -40,16 +40,6 @@ module.exports = function (grunt) {
             }
         },
 
-        htmlSnapshot: {
-            all: {
-              options: {
-                snapshotPath: '<%= pkg.folders.build %>/g/',
-                sitePath: 'file:///Users/rjb/Dropbox/code/pcfig/build/index.html#',
-                urls: ['']
-              }
-            }
-        },
-
         watch: {
             files: ['<%= pkg.folders.src %>/**/*'],
             tasks: ['default'],
@@ -67,7 +57,6 @@ module.exports = function (grunt) {
 
     });
 
-    grunt.loadNpmTasks('grunt-html-snapshot');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-copy');
