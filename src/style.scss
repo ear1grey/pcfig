@@ -84,7 +84,7 @@ img {
 }
 
 .crown {
-    background: #ff6600;
+    background: #FF6633;
     color: #ffe77c;
 }
 
@@ -110,6 +110,21 @@ img {
     padding-bottom: 7em; 
 }
 
+.rlj {
+    color: #C00;
+}
+
+.everybody {
+    background: #56336a;
+    color: #7FFFAA;
+}
+
+
+
+.important {
+    font-weight: bold;
+}
+
 .sources {
     background: #666666;
     color: #CC9;
@@ -131,11 +146,16 @@ img {
 
     }
 
+    :target {
+        background: #333;
+        color: #DDA;
+    }
+
 
 }
 
-
-:target {
-    background: #333;
-    color: #DDA;
+section:target {
+    border-left: #000 solid 1em; 
+    border-right: #000 solid 1em; 
 }
+
