@@ -28,8 +28,8 @@ a {
 }
 
 h1 {
-    font-weight: normal;    
-    text-align: right;    
+    font-weight: normal;
+    text-align: right;
 }
 
 em {
@@ -107,7 +107,7 @@ img {
     background: #e6e6e6;
     color: #FFF;
     padding-top: 7em;
-    padding-bottom: 7em; 
+    padding-bottom: 7em;
 }
 
 .rlj {
@@ -119,6 +119,15 @@ img {
     color: #7FFFAA;
 }
 
+.carage {
+    background: #E88D77;
+    color: #335;
+}
+
+.eightythree {
+    background: #c8f763;
+    color: #C07;
+}
 
 
 .important {
@@ -155,7 +164,6 @@ img {
 }
 
 section:target {
-    border-left: #000 solid 1em; 
-    border-right: #000 solid 1em; 
+    border-left: #000 solid 1em;
+    border-right: #000 solid 1em;
 }
-
