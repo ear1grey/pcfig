@@ -12,8 +12,8 @@ An HTML/SVG based infographic for Portsmouth Cycle Forum.
 Build it
 ---
 1. Check out the source.
-2. `npm init` to prepare the build dependencies.
-3. `grunt` to build.
+2. `npm install` to prepare the build dependencies.
+3. `gulp` to build.
 
 
 Improve it

@@ -1,16 +1,12 @@
 {
   "name": "pcfig",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "pcfig: Portsmouth Cycle Forum Info-Graphic",
-  "author": "rjb@port.ac.uk",
+  "author": "Rich Boakes <rjb@port.ac.uk>",
   "license": "http://creativecommons.org/licenses/by-sa/3.0/",
   "devDependencies": {
-    "grunt": "^0.4.4",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-contrib-sass": "^0.7.3",
-    "grunt-contrib-copy": "^0.5.0",
-    "grunt-gh-pages": "^0.9.1",
-    "grunt-html-validation": "^0.1.17"
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
   },
   "folders": {
     "src": "src",
